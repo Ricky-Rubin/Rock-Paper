@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Rock, Paper, Scissors...kinda</title>
+        <link rel="stylesheet" href="Rock.css"/>
+
+    </head>
+
+    <body>
+
+        <h1>Let's Play Rock, Paper, Scissors!</h1>
+
+        <details id="details">
+
+            <summary>Rules to the game</summary>
+
+            <p>You will be playing against the computer.</p>
+            <p>You can choose between Rock, Paper, and Scissors</p>
+            <p>The first one to three points win</p>
+
+            <p>Here are the rules to getting a point in the game:</p>
+
+            <ul>
+
+                <li>Rock beats Scissors</li>
+                <li>Scissors beats Paper</li>
+                <li>Paper beats Rock</li>
+
+            </ul>
+
+            <p>If the player and computer choose the same option (Ex. Paper and Paper), then no one gets the point</p>
+
+        </details>
+
+        <div id="scores">
+
+            <span><strong>Player Score: </strong><span id="player_score">0</span></span>
+
+            <span><strong>Computer Score: </strong><span id="computer_score">0</span></span>
+
+        </div>
+
+        <section id="options">
+
+            <h2>Choose an option:</h2>
+
+            <span><button id="rockbtn" class="btn">Rock</button></span>
+
+            <span><button id="paperbtn" class="btn">Paper</button></span>
+
+            <span><button id="scissorsbtn" class="btn">Scissors</button></span>
+
+        </section>
+
+        <div id="last_part">
+
+            <div id="resultmsg"></div>
+            <div id="finalmsg"></div>
+            <button id="lst_btn">Play Again?</button>
+
+        </div>
+
+    <script src="script.js"></script>
+
+    </body>
+
+</html>

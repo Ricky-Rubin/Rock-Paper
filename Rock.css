@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --dark-blue: #0a0a23;
+    --white: #ffffff;
+    --yellow: #f1be32;
+    --gold: #feac32;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background: var(--dark-blue);
+    color: var(--white);
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+h1 {
+    margin: 20px auto;
+}
+
+#details {
+    width: 60%;
+    padding: 10px 0px;
+    background: var(--white);
+    border: 5px solid var(--gold);
+    margin: auto;
+    text-align: center;
+    color: var(--dark-blue);
+    border-radius: 20px;
+}
+
+#details summary {
+    color: var(--dark-blue);
+}
+
+#details p,
+#details ul {
+    color: var(--dark-blue);
+    font-size: 14px;
+}
+
+#details ul {
+    list-style-type: none;
+}
+
+#details p {
+    margin: 5px 0px;
+}
+
+#scores {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 150px;
+}
+
+#options h2 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    width: 100px;
+    height: 23px;
+    margin: 0px 15px;
+    text-align: center;
+    line-height: 17px;
+    color: var(--dark-blue);
+    background: var(--yellow);
+    border-width: 3px;
+    border-color: var(--gold);
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: linear-gradient(#f1be32, #feac32);
+}
+
+#lst_btn {
+    margin: 20px auto;
+    display: none;
+}
+
+#resultmsg,
+#finalmsg {
+    margin: 20px 0px;
+}
